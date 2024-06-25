@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    overflow-x: hidden; 
+    overflow-y: scroll;
+    background-color: #F4ECF7;
+    font-family: "quicksand";
+}
+#im{
+    position: absolute;
+    width: 750px;
+    height: 750px;
+    bottom: -40px;
+}
+#l{
+    position: relative;
+    font-size: 3em;
+    left: 1320px;
+    top: 10px;
+    color:  #7D3C98;}
+    .nav-links{
+        position: relative;
+        z-index: 2;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        text-decoration: none;
+        top: -120px;
+        padding-top: 40px;
+    }
+     .link a{
+        margin-left: 30px;
+        font-weight: 500;
+        font-size: x-large;
+        color: var(--text-light);
+        transition: 0.1s;
+        text-decoration: none;
+        color:#7D3C98;
+    }
+    #sq{
+        position: relative;
+        width:1200px;
+        height: 1100px;
+        left: 180px;
+        top: -125px;
+        background-color: rgba(255, 255, 255, 0.6);
+        border-radius: 30%;
+    }
+    #sq1{
+        position: relative;
+        width:1000px;
+        height:300px;
+        left:100px;
+        top:150px;
+background-color: rgba(128, 128, 128, 0.147);
+border-radius: 65px;
+}
+    #p{
+        position: relative;
+        left: 50px;
+        top: 10px;
+        color: #7D3C98;
+    }
+    #name{
+        position: relative;
+        left: 50px;
+        top: 20px;
+        width: 550px;
+        height: 50px;
+        border-color: #7D3C98;
+background-color: #F4ECF7;        border-radius: 3rem;
+    }
+    #email{
+        position: relative;
+        left: 50px;
+        top: 50px;
+        width: 350px;
+        height: 50px;
+        border-color: #7D3C98;
+background-color: #F4ECF7;       border-radius: 3rem;
+    }
+    #phone{
+        position: relative;
+        left: 80px;
+        top: 50px;
+        width: 350px;
+        height: 50px;
+        border-color: #7D3C98;
+background-color: #F4ECF7;        border-radius: 3rem;
+    }
+    #sq2{
+        position: relative;
+        width:1000px;
+        height:400px;
+        left:100px;
+        top:150px;
+background-color: rgba(128, 128, 128, 0.147);
+border-radius: 65px;
+}
+    #p1{
+        position: relative;
+        left: 50px;
+        top: 10px;
+        color: #7D3C98;
+    }
+    #name1{
+        position: relative;
+        left: 50px;
+        top: 20px;
+        width: 550px;
+        height: 50px;
+        border-color: #7D3C98;
+background-color: #F4ECF7;        border-radius: 3rem;
+    }
+    #num{
+        position: relative;
+        left: 50px;
+        top: 50px;
+        width: 550px;
+        height: 50px;
+        border-color: #7D3C98;
+background-color: #F4ECF7;       border-radius: 3rem;
+    }
+    #d{
+        position: relative;
+        left: 50px;
+        top: 90px;
+        width: 350px;
+        height: 50px;
+        border-color: #7D3C98;
+background-color: #F4ECF7;        border-radius: 3rem;
+    }
+    #cvc{
+        position: relative;
+        left: 50px;
+        top: 90px;
+        width: 350px;
+        height: 50px;
+        border-color: #7D3C98;
+background-color: #F4ECF7;        border-radius: 3rem;
+    }
+    
+    .btn1{
+        position: relative;
+        left: 500px;
+        top: 220px;
+        outline:none;
+        border: none;
+        font-size: 1rem;
+        font-weight: 500;
+        background-color: #A569BD;
+        border-radius: 3rem;
+        cursor: pointer;
+        transition: 0.3;
+        border: 3px solid transparent;
+        z-index: 100;
+        font-size: 2rem;
+        font-family: "quicksand";
+        font-weight: bolder;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        color: #F4ECF7;
+    }
+     .btn1:hover{
+        position: relative;
+        left: 500px;
+        top: 220px;
+        outline:none;
+        border: none;
+        font-size: 1rem;
+        font-weight: 500;
+        background-color: #F4ECF7;
+        border-radius: 3rem;
+        cursor: pointer;
+        transition: 0.3;
+        color: #7D3C98;
+        z-index: 100;
+        font-size: 2rem;
+        font-family: "quicksand";
+        font-weight: bolder;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        border: 3px solid #7D3C98;
+    }
+ 
+    

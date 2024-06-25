@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+   body{
+    overflow: hidden;
+    background-color: #F4ECF7;
+    font-family: "quicksand";
+}
+   #c1{
+    position: relative;
+    height: 1200px;
+    width: 1200px;
+    border-radius: 50%;
+    right: 200px;
+    top: -250px;
+    background-color: #A569BD;
+    z-index: 0;
+}
+   #c2{
+    position:relative;
+    height: 900px;
+    width: 900px;
+    border-radius: 50%;
+    right: 300px;
+    top: -1250px;
+    z-index: 1;
+    background-color: #7D3C98;
+}
+   #m{
+    position: relative;
+    font-size: 3em;
+    left: 1600px;
+    top: 10px;
+    color:  #7D3C98;
+}
+   p{
+    position: relative;
+    left: 350px;
+    top: 170px;
+    width: 400px;
+    font-size: x-large;
+    color: aliceblue;
+    font-family: 'quicksand';
+}
+  .nav-links{
+    position: relative;
+    z-index: 2;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    text-decoration: none;
+    top: 10px;
+    padding-top: 40px;
+}
+ .link a{
+    margin-left: 30px;
+    font-weight: 500;
+    font-size: x-large;
+    color: var(--text-light);
+    transition: 0.1s;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#s{
+    position: relative;
+    left: 350px;
+    top: 170px;
+    color: #F4ECF7;
+}

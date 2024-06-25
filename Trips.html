@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEROZ</title>
+    <link rel="stylesheet" href="../CSS/trips.css">
+</head>
+<body>
+        <h1>Meroz</h1>
+        <ul class="nav-links">
+            <li class="link"><a href="home.html">Home</a></li>
+            <li class="link"><a href="Trips.html">Trips</a></li>
+            <li class="link"><a href="Contact.html">Contact</a></li>
+            <li class="link"><a href="#">About us</a></li>
+            </ul>
+            <div id="sq">
+                <form >
+                    <label id="l" for="l">Location</label><br><br>
+                    <label id="from" for="From">From</label>
+                    <select name="From1" id="From1" required>                            
+                        <optgroup label="Asia">  
+                            <option value="---"></option>
+                            <option>Russia</option>
+                            <option>Japan</option>
+                            <option>China</option>
+                            <option>India</option>
+                            <option>South korea</option>
+                            <option>Tail land</option>
+                            <option>Iraq</option>
+                        </optgroup>
+                        <optgroup label="Africa">
+                            <option >Egypt</option>
+                            <option >Sudan</option>
+                            <option >Libya</option>
+                            <option >Tunisia</option>
+                            <option >Algeria</option>
+                            <option >Mali</option>
+                            <option >Morocco</option>
+                        </optgroup>
+                    </select>
+                    <br>
+                    <br>
+                    <label id="t" for="To">To</label>
+                    <select name="To1" id="To1" required>                            
+                        <optgroup label="Asia">  
+                            <option value="---"></option>
+                            <option>Russia</option>
+                            <option>Japan</option>
+                            <option>China</option>
+                            <option>India</option>
+                            <option>South korea</option>
+                            <option>Tail land</option>
+                            <option>Iraq</option>
+                        </optgroup>
+                        <optgroup label="Africa">
+                            <option >Egypt</option>
+                            <option >Sudan</option>
+                            <option >Libya</option>
+                            <option >Tunisia</option>
+                            <option >Algeria</option>
+                            <option >Mali</option>
+                            <option >Morocco</option>
+                        </optgroup>
+                    </select><br>
+                    <br>
+                      <label id="dd" for="d">Departure Date</label><br>
+                      <label id="f2" for="from">From:</label><br>
+                    <input type="date" id="d1" required>
+
+                    <label id="rd" for="d">Return Date</label><br>
+                    <label id="t2" for="to">To:</label><br>
+                    <input type="date" id="d2" required>
+
+                    <label id="tv" for="t">Travellers</label><br>
+                    <input id="tv1" type="number" required>
+                    <br><br><br>
+                    <button class="btn" type="submit" formaction="../HTML/flights.html">Search Flights</button>
+
+                </form>
+            </div>
+</body>
+</html>

@@ -1,0 +1,877 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    overflow-x: hidden; 
+  overflow-y: scroll;
+    background-color: #F4ECF7;
+    font-family: "quicksand";
+}
+#im{
+    position: absolute;
+    width: 750px;
+    height: 750px;
+    bottom: -40px;
+}
+h1{
+    position: relative;
+    font-size: 3em;
+    left: 1320px;
+    top: 10px;
+    color:  #7D3C98;}
+    .nav-links{
+        position: relative;
+        z-index: 2;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        text-decoration: none;
+        top: -120px;
+        padding-top: 40px;
+    }
+     .link a{
+        margin-left: 30px;
+        font-weight: 500;
+        font-size: x-large;
+        color: var(--text-light);
+        transition: 0.1s;
+        text-decoration: none;
+        color:#7D3C98;
+    }
+    #sq{
+        position: relative;
+        width: 1000px;
+        height: 200px;
+        left: 170px;
+    }
+
+    #sq1{
+        position: relative;
+        width: 1000px;
+        height: 200px;
+        left: 70px;
+        top: -50px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 65px;
+    }
+    .f1{
+        position: relative;
+        left: 120px;
+        top: 50px;
+    }
+    #c1{
+        position: relative;
+        left: 120px;
+        top: 65px;
+    }
+    .t1{
+        position: relative;
+        left: 550px;
+        top: -35px;
+    }
+    #c2{
+        position: relative;
+        left: 550px;
+        top: -25px;
+    }
+  
+    
+    .btn1{
+        position: relative;
+        left: 550px;
+        top: -180px;
+        outline:none;
+        border: none;
+        font-size: 1rem;
+        font-weight: 500;
+        background-color: #A569BD;
+        border-radius: 3rem;
+        cursor: pointer;
+        transition: 0.3;
+        border: 3px solid transparent;
+        z-index: 100;
+        font-size: 2rem;
+        font-family: "quicksand";
+        font-weight: bolder;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        color: #F4ECF7;
+    }
+     .btn1:hover{
+        position: relative;
+        left: 550px;
+        top: -180px;
+        outline:none;
+        border: none;
+        font-size: 1rem;
+        font-weight: 500;
+        background-color: #F4ECF7;
+        border-radius: 3rem;
+        cursor: pointer;
+        transition: 0.3;
+        color: #7D3C98;
+        z-index: 100;
+        font-size: 2rem;
+        font-family: "quicksand";
+        font-weight: bolder;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        border: 3px solid #7D3C98;
+    }
+    #air1{
+        position: relative;
+        width: 220px;
+        height: 120px;
+        left: 280px;
+        top: -135px;
+    }
+    #sq2{
+        position: relative;
+        width: 1000px;
+        height: 200px;
+        left: 70px;
+        top: -50px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 65px;
+    }
+    .f2{
+        position: relative;
+        left: 120px;
+        top: 50px;
+    }
+    #c3{
+        position: relative;
+        left: 120px;
+        top: 65px;
+    }
+    .t2{
+        position: relative;
+        left: 550px;
+        top: -35px;
+    }
+    #c4{
+        position: relative;
+        left: 550px;
+        top: -25px;
+    }
+    .btn2{
+        position: relative;
+        left: 550px;
+        top: -180px;
+        outline:none;
+        border: none;
+        font-size: 1rem;
+        font-weight: 500;
+        background-color: #A569BD;
+        border-radius: 3rem;
+        cursor: pointer;
+        transition: 0.3;
+        border: 3px solid transparent;
+        z-index: 100;
+        font-size: 2rem;
+        font-family: "quicksand";
+        font-weight: bolder;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        color: #F4ECF7;
+    }
+     .btn2:hover{
+        position: relative;
+        left: 550px;
+        top: -180px;
+        outline:none;
+        border: none;
+        font-size: 1rem;
+        font-weight: 500;
+        background-color: #F4ECF7;
+        border-radius: 3rem;
+        cursor: pointer;
+        transition: 0.3;
+        color: #7D3C98;
+        z-index: 100;
+        font-size: 2rem;
+        font-family: "quicksand";
+        font-weight: bolder;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        border: 3px solid #7D3C98;
+    }
+    #air2{
+        position: relative;
+        width: 220px;
+        height: 120px;
+        left: 280px;
+        top: -135px;
+    }
+    #sq3{
+        position: relative;
+        width: 1000px;
+        height: 200px;
+        left: 70px;
+        top: -50px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 65px;
+    }
+    .f3{
+        position: relative;
+        left: 120px;
+        top: 50px;
+    }
+    #c5{
+        position: relative;
+        left: 120px;
+        top: 65px;
+    }
+    .t3{
+        position: relative;
+        left: 550px;
+        top: -35px;
+    }
+    #c6{
+        position: relative;
+        left: 550px;
+        top: -25px;
+    }
+    .btn3{
+        position: relative;
+        left: 550px;
+        top: -180px;
+        outline:none;
+        border: none;
+        font-size: 1rem;
+        font-weight: 500;
+        background-color: #A569BD;
+        border-radius: 3rem;
+        cursor: pointer;
+        transition: 0.3;
+        border: 3px solid transparent;
+        z-index: 100;
+        font-size: 2rem;
+        font-family: "quicksand";
+        font-weight: bolder;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        color: #F4ECF7;
+    }
+     .btn3:hover{
+        position: relative;
+        left: 550px;
+        top: -180px;
+        outline:none;
+        border: none;
+        font-size: 1rem;
+        font-weight: 500;
+        background-color: #F4ECF7;
+        border-radius: 3rem;
+        cursor: pointer;
+        transition: 0.3;
+        color: #7D3C98;
+        z-index: 100;
+        font-size: 2rem;
+        font-family: "quicksand";
+        font-weight: bolder;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        border: 3px solid #7D3C98;
+    }
+    #air3{
+        position: relative;
+        width: 220px;
+        height: 120px;
+        left: 280px;
+        top: -135px;
+    }
+    #sq4{
+        position: relative;
+        width: 1000px;
+        height: 200px;
+        left: 70px;
+        top: -50px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 65px;
+    }
+    .f4{
+        position: relative;
+        left: 120px;
+        top: 50px;
+    }
+    #c7{
+        position: relative;
+        left: 120px;
+        top: 65px;
+    }
+    .t4{
+        position: relative;
+        left: 550px;
+        top: -35px;
+    }
+    #c8{
+        position: relative;
+        left: 550px;
+        top: -25px;
+    }
+  
+    
+    .btn4{
+        position: relative;
+        left: 550px;
+        top: -180px;
+        outline:none;
+        border: none;
+        font-size: 1rem;
+        font-weight: 500;
+        background-color: #A569BD;
+        border-radius: 3rem;
+        cursor: pointer;
+        transition: 0.3;
+        border: 3px solid transparent;
+        z-index: 100;
+        font-size: 2rem;
+        font-family: "quicksand";
+        font-weight: bolder;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        color: #F4ECF7;
+    }
+     .btn4:hover{
+        position: relative;
+        left: 550px;
+        top: -180px;
+        outline:none;
+        border: none;
+        font-size: 1rem;
+        font-weight: 500;
+        background-color: #F4ECF7;
+        border-radius: 3rem;
+        cursor: pointer;
+        transition: 0.3;
+        color: #7D3C98;
+        z-index: 100;
+        font-size: 2rem;
+        font-family: "quicksand";
+        font-weight: bolder;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        border: 3px solid #7D3C98;
+    }
+    #air4{
+        position: relative;
+        width: 220px;
+        height: 120px;
+        left: 280px;
+        top: -135px;
+    }
+    #sq5{
+        position: relative;
+        width: 1000px;
+        height: 200px;
+        left: 70px;
+        top: -50px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 65px;
+    }
+    .f5{
+        position: relative;
+        left: 120px;
+        top: 50px;
+    }
+    #c9{
+        position: relative;
+        left: 120px;
+        top: 65px;
+    }
+    .t5{
+        position: relative;
+        left: 550px;
+        top: -35px;
+    }
+    #c10{
+        position: relative;
+        left: 550px;
+        top: -25px;
+    }
+    .btn5{
+        position: relative;
+        left: 550px;
+        top: -180px;
+        outline:none;
+        border: none;
+        font-size: 1rem;
+        font-weight: 500;
+        background-color: #A569BD;
+        border-radius: 3rem;
+        cursor: pointer;
+        transition: 0.3;
+        border: 3px solid transparent;
+        z-index: 100;
+        font-size: 2rem;
+        font-family: "quicksand";
+        font-weight: bolder;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        color: #F4ECF7;
+    }
+     .btn5:hover{
+        position: relative;
+        left: 550px;
+        top: -180px;
+        outline:none;
+        border: none;
+        font-size: 1rem;
+        font-weight: 500;
+        background-color: #F4ECF7;
+        border-radius: 3rem;
+        cursor: pointer;
+        transition: 0.3;
+        color: #7D3C98;
+        z-index: 100;
+        font-size: 2rem;
+        font-family: "quicksand";
+        font-weight: bolder;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        border: 3px solid #7D3C98;
+    }
+    #air5{
+        position: relative;
+        width: 220px;
+        height: 120px;
+        left: 280px;
+        top: -135px;
+    }
+    #sq6{
+        position: relative;
+        width: 1000px;
+        height: 200px;
+        left: 70px;
+        top: -50px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 65px;
+    }
+    .f6{
+        position: relative;
+        left: 120px;
+        top: 50px;
+    }
+    #c11{
+        position: relative;
+        left: 120px;
+        top: 65px;
+    }
+    .t6{
+        position: relative;
+        left: 550px;
+        top: -35px;
+    }
+    #c12{
+        position: relative;
+        left: 550px;
+        top: -25px;
+    }
+    .btn6{
+        position: relative;
+        left: 550px;
+        top: -180px;
+        outline:none;
+        border: none;
+        font-size: 1rem;
+        font-weight: 500;
+        background-color: #A569BD;
+        border-radius: 3rem;
+        cursor: pointer;
+        transition: 0.3;
+        border: 3px solid transparent;
+        z-index: 100;
+        font-size: 2rem;
+        font-family: "quicksand";
+        font-weight: bolder;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        color: #F4ECF7;
+    }
+     .btn6:hover{
+        position: relative;
+        left: 550px;
+        top: -180px;
+        outline:none;
+        border: none;
+        font-size: 1rem;
+        font-weight: 500;
+        background-color: #F4ECF7;
+        border-radius: 3rem;
+        cursor: pointer;
+        transition: 0.3;
+        color: #7D3C98;
+        z-index: 100;
+        font-size: 2rem;
+        font-family: "quicksand";
+        font-weight: bolder;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        border: 3px solid #7D3C98;
+    }
+    #air6{
+        position: relative;
+        width: 220px;
+        height: 120px;
+        left: 280px;
+        top: -135px;
+    }
+    #sq7{
+        position: relative;
+        width: 1000px;
+        height: 200px;
+        left: 70px;
+        top: -50px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 65px;
+    }
+    .f7{
+        position: relative;
+        left: 120px;
+        top: 50px;
+    }
+    #c13{
+        position: relative;
+        left: 120px;
+        top: 65px;
+    }
+    .t7{
+        position: relative;
+        left: 550px;
+        top: -35px;
+    }
+    #c14{
+        position: relative;
+        left: 550px;
+        top: -25px;
+    }
+    .btn7{
+        position: relative;
+        left: 550px;
+        top: -180px;
+        outline:none;
+        border: none;
+        font-size: 1rem;
+        font-weight: 500;
+        background-color: #A569BD;
+        border-radius: 3rem;
+        cursor: pointer;
+        transition: 0.3;
+        border: 3px solid transparent;
+        z-index: 100;
+        font-size: 2rem;
+        font-family: "quicksand";
+        font-weight: bolder;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        color: #F4ECF7;
+    }
+     .btn7:hover{
+        position: relative;
+        left: 550px;
+        top: -180px;
+        outline:none;
+        border: none;
+        font-size: 1rem;
+        font-weight: 500;
+        background-color: #F4ECF7;
+        border-radius: 3rem;
+        cursor: pointer;
+        transition: 0.3;
+        color: #7D3C98;
+        z-index: 100;
+        font-size: 2rem;
+        font-family: "quicksand";
+        font-weight: bolder;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        border: 3px solid #7D3C98;
+    }
+    #air7{
+        position: relative;
+        width: 220px;
+        height: 120px;
+        left: 280px;
+        top: -135px;
+    }
+    #sq8{
+        position: relative;
+        width: 1000px;
+        height: 200px;
+        left: 70px;
+        top: -50px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 65px;
+    }
+    .f8{
+        position: relative;
+        left: 120px;
+        top: 50px;
+    }
+    #c15{
+        position: relative;
+        left: 120px;
+        top: 65px;
+    }
+    .t8{
+        position: relative;
+        left: 550px;
+        top: -35px;
+    }
+    #c16{
+        position: relative;
+        left: 550px;
+        top: -25px;
+    }
+    .btn8{
+        position: relative;
+        left: 550px;
+        top: -180px;
+        outline:none;
+        border: none;
+        font-size: 1rem;
+        font-weight: 500;
+        background-color: #A569BD;
+        border-radius: 3rem;
+        cursor: pointer;
+        transition: 0.3;
+        border: 3px solid transparent;
+        z-index: 100;
+        font-size: 2rem;
+        font-family: "quicksand";
+        font-weight: bolder;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        color: #F4ECF7;
+    }
+     .btn8:hover{
+        position: relative;
+        left: 550px;
+        top: -180px;
+        outline:none;
+        border: none;
+        font-size: 1rem;
+        font-weight: 500;
+        background-color: #F4ECF7;
+        border-radius: 3rem;
+        cursor: pointer;
+        transition: 0.3;
+        color: #7D3C98;
+        z-index: 100;
+        font-size: 2rem;
+        font-family: "quicksand";
+        font-weight: bolder;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        border: 3px solid #7D3C98;
+    }
+    #air8{
+        position: relative;
+        width: 220px;
+        height: 120px;
+        left: 280px;
+        top: -135px;
+    }
+    #sq9{
+        position: relative;
+        width: 1000px;
+        height: 200px;
+        left: 70px;
+        top: -50px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 65px;
+    }
+    .f9{
+        position: relative;
+        left: 120px;
+        top: 50px;
+    }
+    #c17{
+        position: relative;
+        left: 120px;
+        top: 65px;
+    }
+    .t9{
+        position: relative;
+        left: 550px;
+        top: -35px;
+    }
+    #c18{
+        position: relative;
+        left: 550px;
+        top: -25px;
+    }
+    .btn9{
+        position: relative;
+        left: 550px;
+        top: -180px;
+        outline:none;
+        border: none;
+        font-size: 1rem;
+        font-weight: 500;
+        background-color: #A569BD;
+        border-radius: 3rem;
+        cursor: pointer;
+        transition: 0.3;
+        border: 3px solid transparent;
+        z-index: 100;
+        font-size: 2rem;
+        font-family: "quicksand";
+        font-weight: bolder;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        color: #F4ECF7;
+    }
+     .btn9:hover{
+        position: relative;
+        left: 550px;
+        top: -180px;
+        outline:none;
+        border: none;
+        font-size: 1rem;
+        font-weight: 500;
+        background-color: #F4ECF7;
+        border-radius: 3rem;
+        cursor: pointer;
+        transition: 0.3;
+        color: #7D3C98;
+        z-index: 100;
+        font-size: 2rem;
+        font-family: "quicksand";
+        font-weight: bolder;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        border: 3px solid #7D3C98;
+    }
+    #air9{
+        position: relative;
+        width: 220px;
+        height: 120px;
+        left: 280px;
+        top: -135px;
+    }
+    #sq10{
+        position: relative;
+        width: 1000px;
+        height: 200px;
+        left: 70px;
+        top: -50px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 65px;
+    }
+    .f10{
+        position: relative;
+        left: 120px;
+        top: 50px;
+    }
+    #c19{
+        position: relative;
+        left: 120px;
+        top: 65px;
+    }
+    .t10{
+        position: relative;
+        left: 550px;
+        top: -35px;
+    }
+    #c20{
+        position: relative;
+        left: 550px;
+        top: -25px;
+    }
+    .btn10{
+        position: relative;
+        left: 550px;
+        top: -180px;
+        outline:none;
+        border: none;
+        font-size: 1rem;
+        font-weight: 500;
+        background-color: #A569BD;
+        border-radius: 3rem;
+        cursor: pointer;
+        transition: 0.3;
+        border: 3px solid transparent;
+        z-index: 100;
+        font-size: 2rem;
+        font-family: "quicksand";
+        font-weight: bolder;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        color: #F4ECF7;
+    }
+     .btn10:hover{
+        position: relative;
+        left: 550px;
+        top: -180px;
+        outline:none;
+        border: none;
+        font-size: 1rem;
+        font-weight: 500;
+        background-color: #F4ECF7;
+        border-radius: 3rem;
+        cursor: pointer;
+        transition: 0.3;
+        color: #7D3C98;
+        z-index: 100;
+        font-size: 2rem;
+        font-family: "quicksand";
+        font-weight: bolder;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        border: 3px solid #7D3C98;
+    }
+    #air10{
+        position: relative;
+        width: 220px;
+        height: 120px;
+        left: 280px;
+        top: -135px;
+    }
+ 
+    
+  
+  
+  
+  

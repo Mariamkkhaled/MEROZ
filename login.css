@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    overflow: hidden;
+    background-color: #F4ECF7;
+    font-family: "quicksand";
+}
+
+h1{
+    position: relative;
+    font-size: 3em;
+    left: 1350px;
+    top: -10px;
+    color:  #7D3C98;}
+    .nav-links{
+        position: relative;
+        z-index: 2;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        text-decoration: none;
+        top: -120px;
+        padding-top: 40px;
+    }
+     .link a{
+        margin-left: 30px;
+        font-weight: 500;
+        font-size: x-large;
+        color: var(--text-light);
+        transition: 0.1s;
+        text-decoration: none;
+        color:#7D3C98;
+    }
+    #sq{
+        position: relative;
+        width:700px;
+        height: 600px;
+        left: 400px;
+        top: -145px;
+        background-color: rgba(255, 255, 255, 0.6);
+        border-radius: 30%;
+
+    }
+    h2{
+        position: relative;
+        left: 320px;
+        top: 70px;
+        color:  #7D3C98;
+    }
+    #e{
+        position: relative;
+        left: 220px;
+        top: 80px;
+        color:  #7D3C98;
+    }
+    #email{
+        position: relative;
+        left: 210px;
+        top: 90px;
+        width: 300px;
+        height: 70px;
+        border-color: #7D3C98;
+        background-color: #F4ECF7;
+        border-radius: 3rem;
+    }
+    #p{
+        position: relative;
+        left: 220px;
+        top: 120px;
+        color:  #7D3C98;
+    }
+    #password{
+        position: relative;
+        left: 210px;
+        top: 130px;
+        width: 300px;
+        height: 70px;
+        border-color: #7D3C98;
+        background-color: #F4ECF7;
+        border-radius: 3rem;
+    }
+   
+    
+    .btn{
+        position: absolute;
+        left: 270px;
+        top: 400px;
+        outline:none;
+        border: none;
+        font-size: 1rem;
+        font-weight: 500;
+        background-color: #A569BD;
+        border-radius: 3rem;
+        cursor: pointer;
+        transition: 0.3;
+        border: 3px solid transparent;
+        z-index: 100;
+        font-size: 2rem;
+        font-family: "quicksand";
+        font-weight: bolder;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        color: #F4ECF7;
+    }
+     .btn:hover{
+        position: absolute;
+        left: 270px;
+        top: 400px;
+        outline:none;
+        border: none;
+        font-size: 1rem;
+        font-weight: 500;
+        background-color: #F4ECF7;
+        border-radius: 3rem;
+        cursor: pointer;
+        transition: 0.3;
+        color: #7D3C98;
+        z-index: 100;
+        font-size: 2rem;
+        font-family: "quicksand";
+        font-weight: bolder;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        border: 3px solid #7D3C98;
+    }
+    
+    .btn1{
+        position: relative;
+        left: -53px;
+        top: 320px;
+        outline:none;
+        border: none;
+        font-size: 1rem;
+        font-weight: 500;
+        background-color: #A569BD;
+        border-radius: 3rem;
+        cursor: pointer;
+        transition: 0.3;
+        border: 3px solid transparent;
+        z-index: 100;
+        font-size: 2rem;
+        font-family: "quicksand";
+        font-weight: bolder;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        color: #F4ECF7;
+    }
+     .btn1:hover{
+        position: relative;
+        left: -53px;
+        top: 320px;
+        outline:none;
+        border: none;
+        font-size: 1rem;
+        font-weight: 500;
+        background-color: #F4ECF7;
+        border-radius: 3rem;
+        cursor: pointer;
+        transition: 0.3;
+        color: #7D3C98;
+        z-index: 100;
+        font-size: 2rem;
+        font-family: "quicksand";
+        font-weight: bolder;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        border: 3px solid #7D3C98;
+    }
+ 
+ 
+    
+    

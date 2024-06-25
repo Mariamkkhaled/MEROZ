@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEROZ</title>
+    <link rel="stylesheet" href="../CSS/sign.css">
+</head>
+<body>
+
+<h1>Meroz</h1>
+<ul class="nav-links">
+    <li class="link"><a href="home.html">Home</a></li>
+    <li class="link"><a href="Trips.html">Trips</a></li>
+    <li class="link"><a href="Contact.html">Contact</a></li>
+    <li class="link"><a href="#">About us</a></li>
+</ul>
+<div id="sq">
+    <div>
+        <form id="ff" action="/register" method="POST">
+            <label id="f" for="fname">First Name</label><br>
+                <input type="text" id="fname" name="firstName" required ><br>
+
+            <label id="l" for="lname">Last Name</label><br>
+                <input type="text" id="lname" name="lastName" required><br>
+            <br>
+            <br>
+            <label id="e" for="Email">Email</label><br>
+                <input type="email" id="email" name="email" required><br>
+            <label id="d" for="d">BirthDate</label><br>
+                <input type="date" id="date" name="birthDate" required><br>
+            <br>
+            <br>
+            <label id="g" for="gender">Gender</label><br>
+            <select name="gender" id="gender" name="gender">
+                <option value="-">---</option>
+                <option value="m">Male</option>
+                <option value="f">Female</option>
+            </select>
+
+            <label id="p1" for="password1">password</label>
+            <input type="password" id="password1" name="password" required><br>
+            <label id="p2" for="password2">confirm password</label>
+            <input type="password" id="password2" name="confirmpassword" required>
+            <label id="p" for="p">Phone Number</label><br>
+            <input type="number" id="phone" name="phoneNumber" required>
+            <button class="btn" type="submit" formaction="login.html">Sign up</button>
+
+           
+
+        </form>
+    </div>
+
+
+</div>
+
+</body>
+</html>
